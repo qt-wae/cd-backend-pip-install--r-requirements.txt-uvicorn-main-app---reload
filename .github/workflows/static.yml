@@ -100,7 +100,7 @@
       const result = await response.json();
       document.getElementById("result").textContent = "النتيجة: " + result.signal;
     } catch (error) {
-      document.getElementById("result").textContent = "حدث خطأ أثناء التحليل.";
+      document.getElementById("result").textContent = "لا اريد ايا خطا.";
     }
   });
 </script><hr>
